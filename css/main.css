@@ -157,3 +157,35 @@ a {
 }
 
 /* hero section style end */
+
+/* client section style start */
+
+.client {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.client__title {
+  color: var(--Neutral-D_Grey, #4d4d4d);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+  padding-bottom: 8px;
+}
+
+.client__desc {
+  color: var(--Neutral-Grey, #717171);
+  text-align: center;
+  line-height: 24px; /* 150% */
+}
+
+.client__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding-top: 16px;
+}
+
+/* client section style end */
