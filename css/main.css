@@ -386,4 +386,52 @@ a {
 }
 
 
-/* company-stats end */
+/* company-stats end" */
+
+
+.blog-preview {
+  padding: 48px 0;
+  background-color: #ffffff;
+}
+
+.blog-preview__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.blog-preview__rigth {
+  width: 601px;
+}
+
+
+.blog-preview__title {
+  color: var(--Neutral-D_Grey, #4D4D4D);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+  margin-bottom: 16px;
+}
+
+.blog-preview__desc {
+  color: var(--Neutral-Grey, #717171);
+  font-size: 14px;
+  line-height: 20px; /* 142.857% */
+  margin-bottom: 32px;
+}
+
+.blog-preview__link {
+  display: flex;
+  width: 151px;
+  padding: 14px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Brand-Primary, #4caf4f);
+  color: var(--Neutral-White, #FFF);
+  text-align: center;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
